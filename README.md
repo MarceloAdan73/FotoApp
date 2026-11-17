@@ -52,31 +52,4 @@ https://github.com/MarceloAdan73/FotoApp
 
 ## 📊 Diagrama de flujo del menú
 
-<picture>
-  <source srcset="diagrama_flujo.svg" type="image/svg+xml">
-  <img src="diagrama_flujo.png" alt="Diagrama de flujo del menú">
-</picture>
-
-<details>
-<summary>Ver código Mermaid (fuente del diagrama)</summary>
-
-```mermaid
-flowchart TD
-    A[Inicio] --> B[Mostrar menú 1-6]
-    B --> C{Opción elegida}
-    C -->|1. Cargar imagen| D[Cargar imagen local]
-    D --> B
-    C -->|2-5 sin imagen| E[Error: cargar imagen primero]
-    E --> B
-    C -->|2. Redimensionar| F[Elegir red social → redimensionar]
-    C -->|3. Ecualizar| G[Ecualizar histograma]
-    C -->|4. Filtro| H[Elegir filtro 1-9 → aplicar]
-    C -->|5. Boceto| I[Canny + Otsu → bordes]
-    C -->|6. Salir| J[Fin]
-    F --> B
-    G --> B
-    H --> B
-    I --> B
-```
-
-</details>
+![Diagrama de flujo del menú](diagrama_flujo.svg)
