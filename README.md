@@ -47,6 +47,9 @@ FotoApp/
 | `aplicar_filtro(imagen, nombre_filtro)` | Aplica uno de los 9 filtros de Pillow. |
 | `hacer_boceto(imagen_pil)` | Boceto por bordes (Canny + umbralización Otsu). |
 
+## 🔗 Repositorio
+https://github.com/MarceloAdan73/FotoApp
+
 ## 📊 Diagrama de flujo del menú
 
 ```mermaid
