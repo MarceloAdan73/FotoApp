@@ -52,6 +52,11 @@ https://github.com/MarceloAdan73/FotoApp
 
 ## 📊 Diagrama de flujo del menú
 
+![Diagrama de flujo del menú](diagrama_flujo.png)
+
+<details>
+<summary>Ver código Mermaid (fuente del diagrama)</summary>
+
 ```mermaid
 flowchart TD
     A[Inicio] --> B[Mostrar menú 1-6]
@@ -70,3 +75,5 @@ flowchart TD
     H --> B
     I --> B
 ```
+
+</details>
