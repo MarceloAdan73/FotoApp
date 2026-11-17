@@ -52,7 +52,10 @@ https://github.com/MarceloAdan73/FotoApp
 
 ## 📊 Diagrama de flujo del menú
 
-![Diagrama de flujo del menú](diagrama_flujo.png)
+<picture>
+  <source srcset="diagrama_flujo.svg" type="image/svg+xml">
+  <img src="diagrama_flujo.png" alt="Diagrama de flujo del menú">
+</picture>
 
 <details>
 <summary>Ver código Mermaid (fuente del diagrama)</summary>
